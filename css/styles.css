@@ -1,0 +1,25 @@
+/* Fondo general con degradado suave */
+body {
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  }
+  
+  /* Título llamativo con sombra */
+  .title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Recuadro de vista previa */
+  #colorPreview {
+    height: 150px;
+    width: 100%;
+    border: none;
+  }
+  
+  /* Código hexadecimal en vista previa */
+  #hexCode {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
