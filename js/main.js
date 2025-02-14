@@ -85,7 +85,7 @@ document.querySelectorAll('input[type="range"]').forEach(input => {
   input.addEventListener("input", updateColor);
 });
 
-// Agregar event listeners a los inputs numéricos
+// Agregar event listeners a los inputs de los números
 document.querySelectorAll('input[type="number"]').forEach(input => {
   input.addEventListener("input", updateFromDecimal);
 });
